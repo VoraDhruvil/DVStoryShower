@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import DVStoryShower
 
 @main
 struct DVStatusShowerDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DVStoryShower()
         }
     }
 }
