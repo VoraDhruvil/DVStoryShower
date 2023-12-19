@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 struct ContentView: View {
     var body: some View {
         VStack {
@@ -19,6 +20,7 @@ struct ContentView: View {
     }
 }
 
+@available(iOS 15.0, *)
 #Preview {
     ContentView()
 }

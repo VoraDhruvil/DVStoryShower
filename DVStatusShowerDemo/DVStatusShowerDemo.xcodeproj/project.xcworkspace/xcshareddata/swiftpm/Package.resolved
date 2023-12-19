@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "dvstoryshower",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/VoraDhruvil/DVStoryShower",
+      "state" : {
+        "branch" : "master",
+        "revision" : "fe72bfba91cf93579be0c6d276ba7dede451f721"
+      }
+    }
+  ],
+  "version" : 2
+}

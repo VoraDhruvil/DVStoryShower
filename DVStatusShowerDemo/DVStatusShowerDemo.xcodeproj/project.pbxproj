@@ -11,6 +11,7 @@
 		2E75033D2B31687800DF78E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75033C2B31687800DF78E1 /* ContentView.swift */; };
 		2E75033F2B31687A00DF78E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E75033E2B31687A00DF78E1 /* Assets.xcassets */; };
 		2E7503422B31687A00DF78E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E7503412B31687A00DF78E1 /* Preview Assets.xcassets */; };
+		2E75034A2B31750900DF78E1 /* DVStoryShower in Frameworks */ = {isa = PBXBuildFile; productRef = 2E7503492B31750900DF78E1 /* DVStoryShower */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E75034A2B31750900DF78E1 /* DVStoryShower in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = DVStatusShowerDemo;
+			packageProductDependencies = (
+				2E7503492B31750900DF78E1 /* DVStoryShower */,
+			);
 			productName = DVStatusShowerDemo;
 			productReference = 2E7503372B31687800DF78E1 /* DVStatusShowerDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 2E75032E2B31687800DF78E1;
+			packageReferences = (
+				2E7503482B31750900DF78E1 /* XCRemoteSwiftPackageReference "DVStoryShower" */,
+			);
 			productRefGroup = 2E7503382B31687800DF78E1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -280,6 +288,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +318,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +354,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2E7503482B31750900DF78E1 /* XCRemoteSwiftPackageReference "DVStoryShower" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/VoraDhruvil/DVStoryShower";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E7503492B31750900DF78E1 /* DVStoryShower */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E7503482B31750900DF78E1 /* XCRemoteSwiftPackageReference "DVStoryShower" */;
+			productName = DVStoryShower;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2E75032F2B31687800DF78E1 /* Project object */;
 }
