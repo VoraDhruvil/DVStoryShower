@@ -9,7 +9,21 @@ public struct DVStoryShower: View {
     public init() {}
 
     public var body: some View {
-        ProfileCircularImage()
+        VStack(content: {
+            ScrollView(.horizontal) {
+                HStack(spacing: 10) {
+                    ForEach(0..<10) {_ in
+                        ProfileCircularImage(nummberOfStories: 1)
+                    }
+                    .padding(50)
+    //                .background(.green)
+                }
+    //            .background(.red)
+                .padding([.horizontal], 10)
+            }
+//            .padding([.horizontal], 10)
+//            .background(.blue)
+        })
     }
 }
 
