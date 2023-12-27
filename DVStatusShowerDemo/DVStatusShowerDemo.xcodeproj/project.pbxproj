@@ -12,6 +12,7 @@
 		2E75033F2B31687A00DF78E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E75033E2B31687A00DF78E1 /* Assets.xcassets */; };
 		2E7503422B31687A00DF78E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E7503412B31687A00DF78E1 /* Preview Assets.xcassets */; };
 		2E75034A2B31750900DF78E1 /* DVStoryShower in Frameworks */ = {isa = PBXBuildFile; productRef = 2E7503492B31750900DF78E1 /* DVStoryShower */; };
+		2E83FF922B3BFB1A00A5758F /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E83FF912B3BFB1A00A5758F /* MockData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		2E75033C2B31687800DF78E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2E75033E2B31687A00DF78E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E7503412B31687A00DF78E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E83FF912B3BFB1A00A5758F /* MockData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				2E75033A2B31687800DF78E1 /* DVStatusShowerDemoApp.swift */,
 				2E75033C2B31687800DF78E1 /* ContentView.swift */,
+				2E83FF912B3BFB1A00A5758F /* MockData.swift */,
 				2E75033E2B31687A00DF78E1 /* Assets.xcassets */,
 				2E7503402B31687A00DF78E1 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E75033D2B31687800DF78E1 /* ContentView.swift in Sources */,
+				2E83FF922B3BFB1A00A5758F /* MockData.swift in Sources */,
 				2E75033B2B31687800DF78E1 /* DVStatusShowerDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +292,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,7 +322,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

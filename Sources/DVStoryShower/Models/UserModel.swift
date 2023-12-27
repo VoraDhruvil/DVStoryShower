@@ -14,23 +14,23 @@ public class UserModel: Identifiable {
     
     // MARK: - Vars & Lets
     /// The unique identifier for user.
-    public let userId: String = ""
+    public let userId: String
 
     /// The user name of user.
-    public let userName: String = ""
+    public let userName: String
 
     /// The profile image url.
-    public let userImage: String = ""
+    public let userImage: String
 
     /// The list of ``StoryModel`` containing information related
     /// to user.
-    public let userStories: [StoryModel] = []
+    public let userStories: [StoryModel]
 
 //    // MARK: - Initializer
-//    public init(id: String = UUID().uuidString, name: String, image: String, stories: [StoryModel]) {
-//        self.id = id
-//        self.name = name
-//        self.image = image
-//        self.stories = stories
-//    }
+    public init(id: String = UUID().uuidString, name: String, image: String, stories: [StoryModel]) {
+        self.userId = id
+        self.userName = name
+        self.userImage = image
+        self.userStories = stories
+    }
 }

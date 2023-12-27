@@ -14,32 +14,32 @@ public class StoryModel: Identifiable {
     
     // MARK: - Vars & Lets
     /// The unique identifier for story,
-    public let storyId: String = ""
+    public let storyId: String
 
     /// The media url of story.
-    public let storyMediaURL: String = ""
+    public let storyMediaURL: String
 
     /// The story creation date.
-    public let storyCreationDate: Date = Date()
+    public let storyCreationDate: Date
 
     /// The caption for the story.
-    public let storyCaption: String = ""
+    public let storyCaption: String
 
     /// The type of media.
-    public let storyMediaType: MediaType = .image
+    public let storyMediaType: MediaType
 
     /// The current story state.
-    public var storyState: StoryState = .unseen
+    public var storyState: StoryState
 
 //    // MARK: - Initializer
-//    public init(id: String = UUID().uuidString, mediaURL: String, date: Date, caption: String = "", mediaType: MediaType, storyState: StoryState = .unseen) {
-//        self.id = id
-//        self.mediaURL = mediaURL
-//        self.date = date
-//        self.caption = caption
-//        self.mediaType = mediaType
-//        self.storyState = storyState
-//    }
+    public init(id: String = UUID().uuidString, mediaURL: String, date: Date, caption: String = "", mediaType: MediaType, storyState: StoryState = .unseen) {
+        self.storyId = id
+        self.storyMediaURL = mediaURL
+        self.storyCreationDate = date
+        self.storyCaption = caption
+        self.storyMediaType = mediaType
+        self.storyState = storyState
+    }
 }
 
 // MARK: - StoryModel Enums

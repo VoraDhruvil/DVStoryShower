@@ -12,7 +12,7 @@ import DVStoryShower
 struct DVStatusShowerDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            DVStoryShower()
+            DVStoryShower(numberOfStories: 10)
         }
     }
 }
