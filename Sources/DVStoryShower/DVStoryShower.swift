@@ -6,14 +6,18 @@ import SwiftUI
 
 public struct DVStoryShower: View {
 
-    public init() {}
+    private var totalStories: Int = 0
+
+    public init(numberOfStories: Int) {
+        totalStories = numberOfStories
+    }
 
     public var body: some View {
         VStack(content: {
             ScrollView(.horizontal) {
                 HStack(spacing: 10) {
                     ForEach(0..<10) {_ in
-                        ProfileCircularImage(nummberOfStories: 1)
+                        ProfileCircularImage(nummberOfStories: totalStories)
                     }
                     .padding(50)
     //                .background(.green)
@@ -28,5 +32,5 @@ public struct DVStoryShower: View {
 }
 
 #Preview {
-    DVStoryShower()
+    DVStoryShower(numberOfStories: 10)
 }
